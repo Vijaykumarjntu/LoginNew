@@ -15,7 +15,7 @@ const VALID_CREDENTIALS = {
     username: 'admin',
     password: 'admin'
 };
-git remote add origin https://github.com/Vijaykumarjntu/LoginNew.git
+
 // Login endpoint
 app.post('/api/login', async (req, res) => {
     console.log("route working")
