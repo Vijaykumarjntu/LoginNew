@@ -58,7 +58,7 @@ const Login = () => {
         setError('');
 
         try {
-            const response = await axios.post(process.env.REACT_APP_BACKEND_URL+'api/login', {
+            const response = await axios.post(process.env.REACT_APP_BACKEND_URL+'/api/login', {
                 username: formData.username.trim(),
                 password: formData.password.trim()
             });
